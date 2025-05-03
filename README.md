@@ -9,7 +9,18 @@ Install the dependencies.
 
     # Install requirements
     pip install -r requirements.txt
-    git lfs pull #to pull large files(.h5)-model
+
+    # If you have git-lfs skip this part
+    # For Ubuntu/Debian
+    sudo apt install git-lfs
+
+    # For macOS (with Homebrew)
+    brew install git-lfs
+
+    # Then initialize
+    git lfs install
+
+    git lfs pull # to pull large files(.h5)-model
 ```
 
 ## Development
